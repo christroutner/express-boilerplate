@@ -1,9 +1,13 @@
 {
   "name": "myapp",
   "version": "0.0.0",
-  "private": true,
+  "description": "Bare-bones Express.js app for creating quick prototypes.",
+  "author": "Chris Troutner <chris.troutner@gmail.com>",
+  "license": "MIT",
+  "repository": "christroutner/express-boilerplate",
   "scripts": {
-    "start": "node ./bin/www"
+    "start": "node ./bin/www",
+    "test": "echo no tests yet"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
@@ -12,5 +16,16 @@
     "hbs": "~4.0.4",
     "http-errors": "~1.6.3",
     "morgan": "~1.9.1"
+  },
+  "devDependencies": {
+    "semantic-release": "^15.13.3"
+  },
+  "release": {
+    "publish": [
+      {
+        "path": "@semantic-release/npm",
+        "npmPublish": false
+      }
+    ]
   }
 }
