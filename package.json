@@ -15,10 +15,10 @@
     "express": "~4.17.0",
     "hbs": "~4.1.1",
     "http-errors": "~1.7.2",
-    "morgan": "~1.9.1"
+    "morgan": "~1.10.0"
   },
   "devDependencies": {
-    "semantic-release": "^15.13.3"
+    "semantic-release": "^16.0.0"
   },
   "release": {
     "publish": [
