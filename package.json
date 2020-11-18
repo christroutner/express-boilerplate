@@ -18,7 +18,7 @@
     "morgan": "~1.10.0"
   },
   "devDependencies": {
-    "semantic-release": "^16.0.0"
+    "semantic-release": "^17.2.3"
   },
   "release": {
     "publish": [
